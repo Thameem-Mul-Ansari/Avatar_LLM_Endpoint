@@ -39,9 +39,9 @@ Remember: You're speaking to users in real-time, so keep responses natural and d
 
 llm = AzureChatOpenAI(
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    openai_api_version=os.getenv("AZURE_API_VERSION"),
+    api_version=os.getenv("AZURE_API_VERSION"),
     azure_deployment=os.getenv("AZURE_DEPLOYMENT_NAME"),
-    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     temperature=0.7,  # Slightly higher temperature for more varied responses
     max_tokens=150    # Limit response length for better conversation flow
 )
