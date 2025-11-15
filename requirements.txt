@@ -4,3 +4,4 @@ flask-cors
 langchain-openai
 langchain-core
 gunicorn
+numpy
